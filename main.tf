@@ -7,7 +7,7 @@ data "aws_caller_identity" "current" {}
 
 locals {
   name     = basename(path.cwd)
-  region   = "us-east-1"
+  region   = "us-west-2"
 
   primary_cidr   = "172.20.0.0/22"
   secondary_cidr = "100.64.0.0/20"
